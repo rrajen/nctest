@@ -1,7 +1,4 @@
 {
-  "name": "Mock database of customers, their appointments and results",
-  "version": 1,
-  "demo": true,
   "customer": [
     {
       "id": 1001,
