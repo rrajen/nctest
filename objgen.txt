@@ -1,0 +1,79 @@
+// Mock model of customers, their appointments and results
+// Input this into https://www.objgen.com/json/local/design to get a JSON document
+// that can be used as db.json (json-server with typicode.com)
+name = Mock database of customers, their appointments and results
+version n = 1.0
+demo b = true
+
+customer[]
+  id n = 1001
+  name = John Doe
+  phone
+    home = 800-555-1212
+    mobile = 800-555-1221
+
+  email[] s = john.doe@example.com, jd123@invalid.org
+  dateOfBirth d = 1980-11-04
+  registered b = true
+
+  appointments[]
+    id = APPT-2345
+    date d = 2024-12-02
+    startTime = 10:30am
+    duration n = 30
+    location = Phoenix test center
+    attended b = true
+    late b = false
+    noShow b = false
+  appointments[]
+    id = APPT-3009
+    date d = 2025-03-05
+    startTime = 2:00pm
+    duration n = 30
+    location = Phoenix test center
+    attended b = false
+    late b = false
+    noShow b = false
+
+  results[]
+    id = RSLT-2001
+    status = available
+    viewed b = true
+    details = http://unknown.io/results/RSLT-2001
+
+customer[]
+  id n = 1002
+  name = Jane Doe
+  phone
+    home = 800-555-4567
+    mobile = 800-555-2121
+
+  email[] s = jane.doe@example.com
+  dateOfBirth d = 1983-06-07
+  registered b = true
+
+  appointments[]
+    id = APPT-2657
+    date d = 2024-11-11
+    startTime = 8:30am
+    duration n = 30
+    location = Scottsdale test center
+    attended b = true
+    late b = true
+    noShow b = false
+  appointments[]
+    id = APPT-3010
+    date d = 2025-03-05
+    startTime = 9:00am
+    duration n = 30
+    location = Scottsdale test center
+    attended b = false
+    late b = false
+    noShow b = false
+
+  results[]
+    id = RSLT-1987
+    status = available
+    viewed b = true
+    details = http://unknown.io/results/RSLT-1987
+    

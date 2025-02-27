@@ -1,0 +1,95 @@
+{
+  "name": "Mock database of customers, their appointments and results",
+  "version": 1,
+  "demo": true,
+  "customer": [
+    {
+      "id": 1001,
+      "name": "John Doe",
+      "phone": {
+        "home": "800-555-1212",
+        "mobile": "800-555-1221"
+      },
+      "email": [
+        "john.doe@example.com",
+        "jd123@invalid.org"
+      ],
+      "dateOfBirth": "1980-11-04T00:00:00.000Z",
+      "registered": true,
+      "appointments": [
+        {
+          "id": "APPT-2345",
+          "date": "2024-12-02T00:00:00.000Z",
+          "startTime": "10:30am",
+          "duration": 30,
+          "location": "Phoenix test center",
+          "attended": true,
+          "late": false,
+          "noShow": false
+        },
+        {
+          "id": "APPT-3009",
+          "date": "2025-03-05T00:00:00.000Z",
+          "startTime": "2:00pm",
+          "duration": 30,
+          "location": "Phoenix test center",
+          "attended": false,
+          "late": false,
+          "noShow": false
+        }
+      ],
+      "results": [
+        {
+          "id": "RSLT-2001",
+          "status": "available",
+          "viewed": true,
+          "details": "http://unknown.io/results/RSLT-2001"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "name": "Jane Doe",
+      "phone": {
+        "home": "800-555-4567",
+        "mobile": "800-555-2121"
+      },
+      "email": [
+        "jane.doe@example.com"
+      ],
+      "dateOfBirth": "1983-06-07T00:00:00.000Z",
+      "registered": true,
+      "appointments": [
+        {
+          "id": "APPT-2657",
+          "date": "2024-11-11T00:00:00.000Z",
+          "startTime": "8:30am",
+          "duration": 30,
+          "location": "Scottsdale test center",
+          "attended": true,
+          "late": true,
+          "noShow": false
+        },
+        {
+          "id": "APPT-3010",
+          "date": "2025-03-05T00:00:00.000Z",
+          "startTime": "9:00am",
+          "duration": 30,
+          "location": "Scottsdale test center",
+          "attended": false,
+          "late": false,
+          "noShow": false
+        }
+      ],
+      "results": [
+        {
+          "id": "RSLT-1987",
+          "status": "available",
+          "viewed": true,
+          "details": "http://unknown.io/results/RSLT-1987",
+          "": {}
+        }
+      ]
+    }
+  ]
+}
