@@ -8,6 +8,9 @@ git push -u origin main
 
 # Usage
 The db.json file is accessible as:
+
 https://my-json-server.typicode.com/rrajen/nctest/customer
+
 https://my-json-server.typicode.com/rrajen/nctest/customer/1001
+
 https://my-json-server.typicode.com/rrajen/nctest/customer/1002
